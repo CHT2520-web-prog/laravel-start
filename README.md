@@ -86,6 +86,8 @@ php artisan serve
 
 This instructs Artisan to start a web server, just we have done manually in previous weeks. 
 
+We could manually `cd` into the _public_ folder and then run `php -S 0.0.0.0:8000`. Artisan simple provides a shortcut.
+
 You should be able to view your Laravel app on port 8000 where you will see the 'Let's get started' message.
 
 ## Routes <a name="routes"></a>
