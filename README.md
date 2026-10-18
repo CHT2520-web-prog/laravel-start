@@ -2,11 +2,14 @@
 
 The following practical instructions are a quick start. You should refer to the Laravel website (https://laravel.com/) for comprehensive info on building Laravel applications or https://laracasts.com/series/30-days-to-learn-laravel-11 for a more in-depth introduction.
 
+
 To keep things nice and clean, we will use a new separate codespace for learning Laravel.
 
 To get started, click on the green button in the top-left on this repository that says 'Use this template' and then select 'Open in a codespace'.
 
 A new Codespace should start
+
+> If you are using Herd, you would take a different approach e.g. using the Laravel CLI to create an app for you. 
 
 ### Install dependencies
 
