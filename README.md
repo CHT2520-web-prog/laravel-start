@@ -349,7 +349,7 @@ Go back to _index.blade.php_ and change it to:-
 - Back in `FilmController.php`, load this view from the `create()` method
 
 ```php
-    function create()
+    public function create()
     {
         return view('films.create');
     }
@@ -613,7 +613,7 @@ Route::get('/films/{id}', [FilmController::class, 'show']);
 Add the following `show()` method to the controller
 
 ```php
-function show(int $id)
+public function show(int $id)
 {
     $film = Film::findOrFail($id);
     return view('films.show', ['film' => $film]);
@@ -660,7 +660,7 @@ Route::get('/films/{id}/edit', [FilmController::class, 'edit']);
 - Next, add an `edit()` method to `FilmController`.
 
 ```php
-    function edit(int $id)
+    public function edit(int $id)
     {
         $film = Film::findOrFail($id);
         return view('films.edit', ['film' => $film]);
