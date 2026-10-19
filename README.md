@@ -1,6 +1,6 @@
 # Introduction to Laravel
 
-The following practical instructions are a quick start. You should refer to the Laravel website (https://laravel.com/) for comprehensive info on building Laravel applications or https://laracasts.com/series/30-days-to-learn-laravel-11 for a more in-depth introduction.
+The following practical instructions are a quick start. You should refer to the Laravel website (https://laravel.com/) for comprehensive info on building Laravel applications or https://laracasts.com/series/laravel-from-scratch-2026 for a more in-depth introduction.
 
 
 To keep things nice and clean, we will use a new separate codespace for learning Laravel.
