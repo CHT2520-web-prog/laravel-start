@@ -51,6 +51,10 @@ composer install
 
 > It's a good idea to store configuration information such as database settings in a separate file that won't be publicly accessible. This is exactly what the _.env_ file is. Laravel will load settings from this file automatically.
 
+### Using Artisan
+
+Artisan is a CLI (Command Line Interface) that comes with Laravel. It is used to run tasks and automate code generation. 
+
 - In the terminal enter the following:
 
 ```
@@ -65,21 +69,7 @@ This will generate a key that is used to encode potentially sensitive data e.g. 
 php artisan migrate
 ```
 
-This will generate some basic database tables that Laravel needs to work. At this point you are all set-up and ready to start learning Laravel.
-
-### Using Artisan
-
-Artisan is a CLI (Command Line Interface) that comes with Laravel. It is used to run tasks and automate code generation. 
-
-First we need Artisan to generate some database tables for us
-
-- In the terminal enter
-
-```
-php artisan migrate
-```
-
-You should get some feedback telling you that three tables have been set-up. We don't need to worry about these tables at the moment.
+This will generate some basic database tables that Laravel needs to work. 
 
 Next start the Laravel app
 
